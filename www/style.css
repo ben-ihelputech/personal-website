@@ -1,0 +1,13 @@
+/* Link Class */
+.links {
+    line-height: 1.5;
+}
+
+table, tr, td {
+    border: 1px solid;
+    padding: 5px;
+}
+
+body {
+    background-color: lightgray;
+}
