@@ -1,4 +1,32 @@
-/* Link Class */
+body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.header {
+    margin: auto;
+    width: 90%;
+    height: 20em;
+    border: 1px gray;
+    background-image: url(images/victoria-ben-1-medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top 5%;
+    
+}
+
+div.welcome {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 6px #000000;
+    padding-top: 3em;
+    inline-size: auto;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-size: x-large;
+
+}
+
 .links {
     line-height: 1.5;
 }
@@ -6,8 +34,4 @@
 table, tr, td {
     border: 1px solid;
     padding: 5px;
-}
-
-body {
-    background-color: lightgray;
 }
