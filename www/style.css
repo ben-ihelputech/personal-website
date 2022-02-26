@@ -27,6 +27,13 @@ div.welcome {
 
 }
 
+div.main {
+    margin: auto;
+    width: 60%;
+    text-align: left;
+    padding-bottom: 10em;
+}
+
 .links {
     line-height: 1.5;
 }
@@ -34,4 +41,14 @@ div.welcome {
 table, tr, td {
     border: 1px solid;
     padding: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+footer {
+    text-align: center;
+    font-size: smaller;
+    color: gray;
 }
