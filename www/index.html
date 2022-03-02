@@ -29,34 +29,43 @@
         <p>We're getting married!</p>
         <h2>Gift Registry</h2>
         <div class="links">
-            <table>
+           <table class="styled-table">
+                <th class="table-title" colspan="2">
+                    Merchants
+                </th>    
                 <tr>
                     <td>
-                        <a href="https://www.amazon.com/wedding/registry/SU9IPPBNVHEK" target="_blank">Amazon</a>
+                        <!-- <a href="https://www.amazon.com/wedding/registry/SU9IPPBNVHEK" target="_blank">Amazon</a> -->
+                        <button class="button-medium" onclick="openInNewTab('https://www.amazon.com/wedding/registry/SU9IPPBNVHEK')">Amazon</button>
                     </td>
                     <td>
-                        <a href="https://www.macys.com/wgl/registry/guest/VICTORIA-MILLER-BENJAMIN-MEINHART/7322578"
-                            target="_blank">Macy's</a>
+                        <!-- <a href="https://www.macys.com/wgl/registry/guest/VICTORIA-MILLER-BENJAMIN-MEINHART/7322578"
+                            target="_blank">Macy's</a> -->
+                        <button class="button-medium" onclick="openInNewTab('https://www.macys.com/wgl/registry/guest/VICTORIA-MILLER-BENJAMIN-MEINHART/7322578')">Macy's</button>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="https://www.menards.com/main/registrydetail.html?registryId=127241873&lastName=Miller"
-                            target="_blank">Menard's</a>
+                        <!-- <a href="https://www.menards.com/main/registrydetail.html?registryId=127241873&lastName=Miller"
+                            target="_blank">Menard's</a> -->
+                        <button class="button-medium" onclick="openInNewTab('https://www.menards.com/main/registrydetail.html?registryId=127241873&lastName=Miller')">Menard's</button>
                     </td>
                     <td>
-                        <a href="https://www.target.com/gift-registry/gift-giver?registryId=7d3e5be0-878d-11ec-8308-8da450f277d4"
-                            target="_blank">Target</a>
+                        <!-- <a href="https://www.target.com/gift-registry/gift-giver?registryId=7d3e5be0-878d-11ec-8308-8da450f277d4"
+                            target="_blank">Target</a> -->
+                        <button class="button-medium" onclick="openInNewTab('https://www.target.com/gift-registry/gift-giver?registryId=7d3e5be0-878d-11ec-8308-8da450f277d4')">Target</button>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="https://www.wayfair.com/registry/wedding/3fc51def-fc5b-4abf-bae1-fcacc0fd20e0"
-                            target="_blank">Wayfair</a>
+                        <!-- <a href="https://www.wayfair.com/registry/wedding/3fc51def-fc5b-4abf-bae1-fcacc0fd20e0"
+                            target="_blank">Wayfair</a> -->
+                        <button class="button-medium" onclick="openInNewTab('https://www.wayfair.com/registry/wedding/3fc51def-fc5b-4abf-bae1-fcacc0fd20e0')">Wayfair</button>
                     </td>
                     <td>
-                        <a href="https://www.walmart.com/registry/WR/3a2ab3c1-29c0-4744-b456-f6dd33eb484c"
-                            target="_blank">Walmart</a>
+                        <!-- <a href="https://www.walmart.com/registry/WR/3a2ab3c1-29c0-4744-b456-f6dd33eb484c"
+                            target="_blank">Walmart</a> -->
+                        <button class="button-medium" onclick="openInNewTab('https://www.walmart.com/registry/WR/3a2ab3c1-29c0-4744-b456-f6dd33eb484c')">Walmart</button>
                     </td>
                 </tr>
 
@@ -67,13 +76,19 @@
             Christ's Church of Effingham. The ceremony starts at 3:00pm. The reception will take place at the carriage
             house in Altamont Illinois.</p>
         <h2>RSVP</h2>
-        <p>Please RSVP at your earliest convenience.</p>
-        <button class="button-1" onclick="window.location='https://forms.gle/Y2JwxkzYE7gukpiR6';">RSVP</button><br>
+        <p>RSVP at your earliest convenience.</p>
+        <!-- <button class="button-1" onclick="window.location='https://forms.gle/Y2JwxkzYE7gukpiR6';">RSVP</button><br> -->
+        <button class="button-large" onclick="openInNewTab('https://forms.gle/Y2JwxkzYE7gukpiR6')">RSVP</button><br>
         <sub style="font-size: smaller; color: gray;">Button will open Google Form.</sub>
+        <!-- <h2>Directions</h2>
+        <p></p> -->
     </div>
 
 
     <footer>This website was made by <a href="https://ihelpu.tech" target="_blank">iHelpU.Tech</a> </footer>
+
+    <script src="index.js" async defer></script> 
+
 </body>
 
 </html>

@@ -1,18 +1,18 @@
 body {
-    background-color: lightgray;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 div.header {
     margin: auto;
-    width: 90%;
-    height: 20em;
+    width: 100%;
+    height: 22em;
     border: 1px gray;
     background-image: url(images/victoria-ben-1-medium.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top 5%;
-    
+
 }
 
 div.welcome {
@@ -38,13 +38,32 @@ div.main {
     line-height: 1.5;
 }
 
-table, tr, td {
+/* table, tr, td {
     border: 1px solid;
     padding: 5px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     
+} */
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+    /* font-family: sans-serif; */
+    text-align: center;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table-title {
+    text-align: center;
+    background-color: #009b77;
+    font-size: x-large;
+    padding: .5em;
 }
 
 footer {
@@ -54,25 +73,39 @@ footer {
 }
 
 button {
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
-.button-1 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #009b77;
+.button-large {
+    padding: 1em 3em;
+    background-color: white;
+    color: black;
+    border: 2px solid #009b77;
+    font-size: large;
+    font-weight: bold;
 }
 
-.button-1:hover {
-  background-color: #009b77;
-  color: white;
+.button-large:hover {
+    background-color: #009b77;
+    color: white;
+
+}.button-medium {
+    padding: 0.75em;
+    width: 8em;
+    background-color: white;
+    color: black;
+    border: 2px solid #009b77;
+}
+
+.button-medium:hover {
+    background-color: #009b77;
+    color: white;
 }
